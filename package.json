@@ -1,0 +1,14 @@
+{
+  "name": "gemini-automation-testing",
+  "version": "1.0.0",
+  "description": "Automation testing setup with Playwright and Gemini CLI",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "typescript": "latest"
+  }
+}
